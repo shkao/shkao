@@ -12,7 +12,7 @@ Ghent, Belgium
 <table>
   <tr>
     <td width="360" align="center">
-      <img src="assets/gentropy-demo.gif" width="320" alt="Gentropy walkthrough: live feed, explore, and map">
+      <img src="assets/gentropy-demo-v2.gif" width="320" alt="Gentropy walkthrough: live feed, explore, and map">
     </td>
     <td valign="top">
       <h3><a href="https://gentropy.vercel.app">Gentropy</a></h3>
