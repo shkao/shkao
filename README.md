@@ -1,28 +1,48 @@
+<div align="center">
+
 # Shu-Min (Allen) Kao
 
 I work in bioinformatics and build software on the side. Based in Ghent, Belgium.
 
-Most of my code lives in private repos, so the live apps below are the public face. Source available on request.
+</div>
 
-## Live apps
+---
 
-| App | What it does |
-| --- | --- |
-| [Gentropy](https://gentropy.vercel.app) | Mobile planner for Gentse Feesten 2026: what's on now, a live map, and shared plans. |
-| [Flandrien](https://flandrien.vercel.app) | Cycling companion for Flanders: 75 curated knooppunten routes, bike-friendly route planning, and turn-aware ride navigation. |
-| [Panmeow](https://panmeow.vercel.app) | Health records and medical imaging viewer for Panmeow. |
+<div align="center">
 
-## Open source
+## Gentropy
 
-- [quotapace](https://github.com/shkao/quotapace): SwiftBar plugin that tracks your AI quota pace in the macOS menu bar, covering GitHub Copilot premium requests and Google Antigravity model quotas.
-- [nami](https://github.com/shkao/nami): lightweight macOS menu bar app for streaming Japanese regional FM radio. Zero dependencies, SwiftUI, auto-reconnect.
-- [homebrew-tap](https://github.com/shkao/homebrew-tap): Homebrew tap for my projects.
+**Find order in the Feesten.**
 
-## In the workshop
+A mobile planner for Gentse Feesten 2026: ten days, 3,653 events, 253 venues, one city.
 
-- Sotto: local-first meeting minutes and interview copilot for macOS, built on Tauri with pluggable speech recognition.
-- chiikawa-nihongo: a Japanese learning app that teaches JLPT N5 to N1 vocabulary and grammar through weekly Chiikawa episodes, with spaced repetition.
+### [gentropy.vercel.app](https://gentropy.vercel.app)
 
-## Contact
+<br>
 
+<table>
+  <tr>
+    <td align="center"><img src="assets/home.png" width="260" alt="Happening Now feed"></td>
+    <td align="center"><img src="assets/explore.png" width="260" alt="Explore view"></td>
+    <td align="center"><img src="assets/map.png" width="260" alt="Live map"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Now</b><br>A live feed of what plays this minute, sorted by your location</td>
+    <td align="center"><b>Explore</b><br>Every event, filterable by day, theme, and time of day</td>
+    <td align="center"><b>Map</b><br>Live sets and venues on a dark city map, plus toilets, water, and bike parking</td>
+  </tr>
+</table>
 
+<br>
+
+Built with Next.js, Supabase, and MapLibre. Available in six languages. Shared plans let friends vote on where to go next.
+
+</div>
+
+---
+
+<div align="center">
+
+More projects in the workshop. Reach me on LinkedIn.
+
+</div>
