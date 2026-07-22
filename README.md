@@ -31,6 +31,27 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
       <p><a href="https://gentropy.vercel.app"><b>Open the live app →</b></a></p>
     </td>
   </tr>
+  <tr>
+    <td width="360" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/ration-dark.png">
+        <img src="assets/ration-light.png" width="300" alt="Ration's menu bar dropdown: quota bars with a pace tick, reset dates, and a status line">
+      </picture>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/shkao/ration">Ration</a></h3>
+      <em>Make it last to reset day.</em>
+      <p>A macOS menu bar tracker for the AI quota your company rations you. One glance shows whether Copilot and Antigravity will last until they reset.</p>
+      <ul>
+        <li>Live percent-used in the menu bar, busiest quota first</li>
+        <li>A pace tick on every bar: ahead of the clock, or behind</li>
+        <li>Warns in orange, then red, before you run out</li>
+        <li>Auto-detects Copilot and Antigravity; reads from cache when offline</li>
+      </ul>
+      <p>SwiftBar · Bash · gh · jq</p>
+      <p><a href="https://github.com/shkao/ration"><b>View on GitHub →</b></a></p>
+    </td>
+  </tr>
   <!-- Template for the next project: copy this row and fill it in.
   <tr>
     <td width="360" align="center">
