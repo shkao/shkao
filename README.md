@@ -3,7 +3,7 @@
 # Shu-Min (Allen) Kao
 
 Bioinformatics scientist and software engineer by day, indie builder by night.
-Ghent, Belgium
+Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 
 </div>
 
