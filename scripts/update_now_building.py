@@ -29,14 +29,6 @@ def days_since(iso: str) -> int:
     return (now - datetime.fromisoformat(iso.replace("Z", "+00:00"))).days
 
 
-def age_label(days: int) -> str:
-    if days == 0:
-        return "today"
-    if days == 1:
-        return "yesterday"
-    return f"{days} days ago"
-
-
 lines = []
 for r in repos:
     if r["fork"] or r["archived"] or r["name"] in EXCLUDE:
@@ -45,7 +37,7 @@ for r in repos:
     if days > MAX_AGE_DAYS:
         continue
     desc = f" · {r['description']}" if r["description"] else ""
-    lines.append(f"- [{r['name']}]({r['html_url']}){desc} · pushed {age_label(days)}")
+    lines.append(f"- [{r['name']}]({r['html_url']}){desc}")
     if len(lines) == MAX_ITEMS:
         break
 
