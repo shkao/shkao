@@ -13,8 +13,8 @@ Ghent, Belgium
   <tr>
     <td width="360" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/gentropy-demo-dark-v5.gif">
-        <img src="assets/gentropy-demo-light-v5.gif" width="320" alt="Gentropy walkthrough: live feed, explore, and map">
+        <source media="(prefers-color-scheme: dark)" srcset="assets/gentropy-demo-dark-v6.gif">
+        <img src="assets/gentropy-demo-light-v6.gif" width="320" alt="Gentropy walkthrough: live feed, explore, and map">
       </picture>
     </td>
     <td valign="top">
