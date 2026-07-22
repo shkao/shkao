@@ -2,7 +2,7 @@
 
 # Shu-Min (Allen) Kao
 
-I work in bioinformatics and build software on the side.
+Bioinformatics scientist and software engineer by day, indie builder by night.
 Ghent, Belgium
 
 </div>
