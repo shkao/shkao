@@ -53,7 +53,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 ## Now building
 
 <!-- now-building starts -->
-- [quotapace](https://github.com/shkao/quotapace) · SwiftBar plugin that tracks your AI quota pace in the macOS menu bar: GitHub Copilot premium requests and Google Antigravity model quotas · pushed today
+- [ration](https://github.com/shkao/ration) · Your AI quota ration book, in the macOS menu bar. SwiftBar plugin tracking Copilot and Antigravity pace. · pushed today
 <!-- now-building ends -->
 
 <sub>Refreshed weekly by a [GitHub Action](.github/workflows/now-building.yml). Public repos only.</sub>
