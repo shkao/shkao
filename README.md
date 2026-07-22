@@ -50,8 +50,10 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
   -->
 </table>
 
-<div align="center">
+## Now building
 
-More projects on the way.
+<!-- now-building starts -->
+- [quotapace](https://github.com/shkao/quotapace) · SwiftBar plugin that tracks your AI quota pace in the macOS menu bar: GitHub Copilot premium requests and Google Antigravity model quotas · pushed today
+<!-- now-building ends -->
 
-</div>
+<sub>Refreshed weekly by a [GitHub Action](.github/workflows/now-building.yml). Public repos only.</sub>
