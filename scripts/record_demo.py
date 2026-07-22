@@ -1,34 +1,43 @@
+"""Record a phone-sized walkthrough for a profile demo GIF.
+
+Copy this file per project: change the URL and the tap/scroll choreography.
+Keep VIEWPORT at the same aspect ratio as the frame's video pane (VW:VH in
+frame.env) or compose_gif.sh will stretch the recording.
+"""
 from playwright.sync_api import sync_playwright
+
+VIEWPORT = {"width": 390, "height": 767}
 
 with sync_playwright() as p:
     browser = p.chromium.launch(channel="chrome", headless=True)
     ctx = browser.new_context(
-        viewport={"width": 390, "height": 767},
+        viewport=VIEWPORT,
         is_mobile=True, has_touch=True,
         record_video_dir="video",
-        record_video_size={"width": 390, "height": 767},
+        record_video_size=VIEWPORT,
     )
     page = ctx.new_page()
+
+    def scroll(times, dy, pause):
+        for _ in range(times):
+            page.mouse.wheel(0, dy)
+            page.wait_for_timeout(pause)
 
     # Now
     page.goto("https://gentropy.vercel.app/en", wait_until="networkidle")
     page.wait_for_timeout(5000)   # linger on the Your Thing card
-    try:
+    try:  # the taste card only shows on a first visit; continue without it
         page.get_by_text("Live music").first.click(timeout=5000)
     except Exception:
         pass
     page.wait_for_timeout(3000)   # card collapses, feed re-ranks
-    for _ in range(3):
-        page.mouse.wheel(0, 420)
-        page.wait_for_timeout(1400)
+    scroll(3, 420, 1400)
     page.wait_for_timeout(1500)
 
     # Explore
     page.get_by_text("Explore", exact=True).last.click()
     page.wait_for_timeout(3500)
-    for _ in range(2):
-        page.mouse.wheel(0, 450)
-        page.wait_for_timeout(1100)
+    scroll(2, 450, 1100)
     page.wait_for_timeout(800)
 
     # Map

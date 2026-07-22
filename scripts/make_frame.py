@@ -40,9 +40,7 @@ BOTTOM = 16                       # safe-area bar under the tab bar
 Y2 = SY + SCREEN_H - BOTTOM - 2   # video hole bottom; covers the viewport's bottom edge rows
 screen = (SX * SS, SY * SS, (SX + SCREEN_W) * SS - 1, (SY + SCREEN_H) * SS - 1)
 d.rounded_rectangle(screen, radius=44 * SS, fill=APP_BG)
-d.rectangle((SX * SS, (SY + STATUS) * SS, (SX + SCREEN_W) * SS - 1, (Y2 - 44) * SS), fill=(0, 0, 0, 0))
-d.rounded_rectangle((SX * SS, (Y2 - 88) * SS, (SX + SCREEN_W) * SS - 1, Y2 * SS - 1), radius=44 * SS, fill=(0, 0, 0, 0))
-d.rectangle((SX * SS, (Y2 - 88) * SS, (SX + SCREEN_W) * SS - 1, (Y2 - 44) * SS), fill=(0, 0, 0, 0))
+d.rounded_rectangle((SX * SS, (SY + STATUS) * SS, (SX + SCREEN_W) * SS - 1, Y2 * SS - 1), radius=44 * SS, fill=(0, 0, 0, 0), corners=(False, False, True, True))
 
 iw, ih = 96, 26
 ix = (W - iw) // 2
@@ -84,4 +82,8 @@ d.rounded_rectangle(((SX + (SCREEN_W - hw) // 2) * SS, (SY + SCREEN_H - 10) * SS
 
 img = img.resize((W, H), Image.LANCZOS)
 img.save("frame.png")
+
+# geometry consumed by compose_gif.sh; keeps the ffmpeg filter in sync with this file
+with open("frame.env", "w") as f:
+    f.write(f"W={W}\nH={H}\nVX={SX}\nVY={SY + STATUS}\nVW={SCREEN_W}\nVH={SCREEN_H - STATUS - BOTTOM}\n")
 print("ok")
