@@ -74,7 +74,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 ## Now building
 
 <!-- now-building starts -->
-- [ration](https://github.com/shkao/ration) · Your AI quota ration book, in the macOS menu bar. SwiftBar plugin tracking Copilot and Antigravity pace.
+- Heads-down in private repos right now.
 <!-- now-building ends -->
 
 <sub>Refreshed weekly by a [GitHub Action](.github/workflows/now-building.yml). Public repos only.</sub>
