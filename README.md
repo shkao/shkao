@@ -33,6 +33,24 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
   </tr>
   <tr>
     <td width="360" align="center">
+      <img src="assets/nami-demo.gif" width="240" alt="Nami's menu bar popover: Shonan Beach FM playing live with ocean swells rolling behind the controls">
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/shkao/Nami">Nami 波</a></h3>
+      <em>Tune in to the Shonan coast.</em>
+      <p>A macOS menu bar app for five hyper-local community FM stations along Japan's Shonan coast: surf reports from Shonan, temple bells from Kamakura. It streams, reconnects, and keeps itself honest.</p>
+      <ul>
+        <li>One click to play five community FM stations from the menu bar</li>
+        <li>Auto-reconnect with backoff through stream, network, and sleep drops</li>
+        <li>A daily CI health check that catches a dead stream before you do</li>
+        <li>Hamonshu wave animation, bundled Shippori Mincho, ~30 MB</li>
+      </ul>
+      <p>SwiftUI · AVFoundation · zero dependencies</p>
+      <p><a href="https://github.com/shkao/Nami"><b>View on GitHub →</b></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="360" align="center">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="assets/ration-dark.png">
         <img src="assets/ration-light.png" width="300" alt="Ration's menu bar dropdown: quota bars with a pace tick, reset dates, and a status line">
