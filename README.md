@@ -92,7 +92,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 ## Now building
 
 <!-- now-building starts -->
-- Heads-down in private repos right now.
+- [nami](https://github.com/shkao/nami) · Lightweight macOS menu bar app for streaming Japanese community FM radio. SwiftUI, zero dependencies, auto-reconnect.
 <!-- now-building ends -->
 
 <sub>Refreshed weekly by a [GitHub Action](.github/workflows/now-building.yml). Public repos only.</sub>
