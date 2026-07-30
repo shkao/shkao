@@ -19,12 +19,12 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
     </td>
     <td valign="top">
       <h3><a href="https://gentropy.vercel.app">Gentropy</a></h3>
-      <em>Find order in the Feesten.</em>
-      <p>Mobile planner for Gentse Feesten 2026: ten days, 3,653 events, 253 venues, one city.</p>
+      <em>Find order in Gent.</em>
+      <p>A mobile-first companion for Ghent, with year-round events and local news plus a dedicated Gentse Feesten mode.</p>
       <ul>
-        <li>Live feed of what plays this minute, sorted by your location</li>
-        <li>Every event filterable by day, theme, and time of day</li>
-        <li>Dark city map with live sets, venues, toilets, water, and bike parking</li>
+        <li>See what's happening now, what's coming up, and the latest local headlines</li>
+        <li>Browse the city agenda and Gentse Feesten programme by date, theme, and time</li>
+        <li>Explore the city map with venues, toilets, water, and bike parking</li>
         <li>Shared plans so friends can vote on where to go next</li>
       </ul>
       <p>Next.js · Supabase · MapLibre · six languages</p>
