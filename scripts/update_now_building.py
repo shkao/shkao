@@ -20,7 +20,11 @@ END = "<!-- now-building ends -->"
 readme = open("README.md").read()
 # Repos already featured in the Projects table shouldn't repeat here. Read
 # only the part before the now-building block so its own links don't count.
-featured = set(re.findall(r"github\.com/shkao/([\w.-]+)", readme.split(START)[0]))
+featured = {
+    name.casefold()
+    for name in re.findall(r"github\.com/shkao/([\w.-]+)", readme.split(START)[0])
+}
+excluded = {name.casefold() for name in EXCLUDE}
 
 req = urllib.request.Request(
     f"https://api.github.com/users/{USER}/repos?sort=pushed&per_page=30",
@@ -36,7 +40,8 @@ def days_since(iso: str) -> int:
 
 lines = []
 for r in repos:
-    if r["fork"] or r["archived"] or r["name"] in EXCLUDE or r["name"] in featured:
+    repo_name = r["name"].casefold()
+    if r["fork"] or r["archived"] or repo_name in excluded or repo_name in featured:
         continue
     days = days_since(r["pushed_at"])
     if days > MAX_AGE_DAYS:
