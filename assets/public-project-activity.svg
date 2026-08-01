@@ -10,7 +10,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
 <text class="title" x="28" y="34" font-size="18" font-weight="600">Public project activity</text>
 <text class="secondary" x="28" y="57" font-size="12">Latest 12 calendar months · updated 2026-08-01 UTC</text>
 <rect x="28" y="78" width="10" height="10" rx="2" fill="#2f81f7"/>
-<text class="secondary" x="44" y="87" font-size="12">Commits 100</text>
+<text class="secondary" x="44" y="87" font-size="12">Commits 102</text>
 <rect x="169" y="78" width="10" height="10" rx="2" fill="#a371f7"/>
 <text class="secondary" x="185" y="87" font-size="12">Pull requests 1</text>
 <rect x="322" y="78" width="10" height="10" rx="2" fill="#3fb950"/>
@@ -45,8 +45,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
 <rect x="785.3" y="133.8" width="40.0" height="196.2" fill="#2f81f7"><title>2026-07 · Commits: 55</title></rect>
 <rect x="785.3" y="126.7" width="40.0" height="7.1" fill="#d29922"><title>2026-07 · Releases: 2</title></rect>
 <text class="axis" x="805.3" y="351" text-anchor="middle" font-size="10">Jul</text>
-<rect x="856.4" y="315.7" width="40.0" height="14.3" fill="#2f81f7"><title>2026-08 · Commits: 4</title></rect>
-<rect x="856.4" y="312.2" width="40.0" height="3.6" fill="#a371f7"><title>2026-08 · Pull requests: 1</title></rect>
+<rect x="856.4" y="308.6" width="40.0" height="21.4" fill="#2f81f7"><title>2026-08 · Commits: 6</title></rect>
+<rect x="856.4" y="305.0" width="40.0" height="3.6" fill="#a371f7"><title>2026-08 · Pull requests: 1</title></rect>
 <text class="axis" x="876.4" y="351" text-anchor="middle" font-size="10">Aug</text>
 <text class="secondary" x="480" y="380" text-anchor="middle" font-size="11">shkao · ration · nami · homebrew-tap</text>
 </svg>
