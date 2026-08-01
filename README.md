@@ -89,6 +89,20 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
   -->
 </table>
 
+## Open-source activity
+
+<details>
+<summary><a href="https://github.com/shkao/ration">Ration</a></summary>
+<br>
+<a href="https://github.com/shkao/ration"><img src="https://repobeats.axiom.co/api/embed/bbe57be7c418716b35ccc0c4512e0877a77f90c3.svg" alt="Repobeats activity for Ration"></a>
+</details>
+
+<details>
+<summary><a href="https://github.com/shkao/Nami">Nami</a></summary>
+<br>
+<a href="https://github.com/shkao/Nami"><img src="https://repobeats.axiom.co/api/embed/585df8a47ed8d2c31bb09bce747a8f40a797aaeb.svg" alt="Repobeats activity for Nami"></a>
+</details>
+
 ## Now building
 
 <!-- now-building starts -->
