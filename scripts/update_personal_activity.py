@@ -41,9 +41,9 @@ def graph_url(as_of: date, dark: bool) -> str:
             {
                 "bg_color": "0d1117",
                 "color": "c9d1d9",
-                "line": "ec4899",
-                "point": "ec4899",
-                "area_color": "ec4899",
+                "line": "599981",
+                "point": "599981",
+                "area_color": "599981",
             }
         )
     else:
@@ -51,9 +51,9 @@ def graph_url(as_of: date, dark: bool) -> str:
             {
                 "bg_color": "ffffff",
                 "color": "24292f",
-                "line": "ec4899",
-                "point": "ec4899",
-                "area_color": "ec4899",
+                "line": "599981",
+                "point": "599981",
+                "area_color": "599981",
             }
         )
     query = urllib.parse.urlencode(params, quote_via=urllib.parse.quote)

@@ -11,14 +11,14 @@ SPEC.loader.exec_module(activity)
 
 
 class ActivityChartTests(unittest.TestCase):
-    def test_chart_uses_the_repobeats_palette(self):
+    def test_chart_uses_the_monet_palette(self):
         self.assertEqual(
             activity.COLORS,
             {
-                "commits": "#ff7a35",
-                "pull_requests": "#cf54fc",
-                "issues": "#61adf4",
-                "releases": "#ec4899",
+                "commits": "#599981",
+                "pull_requests": "#9981E1",
+                "issues": "#4A70C7",
+                "releases": "#B78199",
             },
         )
 
