@@ -129,9 +129,9 @@ def collect_activity(
 
 def render_svg(counts: dict[str, dict[str, int]], as_of: date) -> str:
     chart_left = 58
-    chart_top = 116
+    chart_top = 86
     chart_width = 854
-    chart_height = 214
+    chart_height = 244
     months = list(counts)
     totals = {
         metric: sum(month[metric] for month in counts.values()) for metric in METRICS
@@ -145,23 +145,22 @@ def render_svg(counts: dict[str, dict[str, int]], as_of: date) -> str:
         "<title>Public project activity for the latest 12 months</title>",
         "<desc>Monthly commits, opened pull requests, opened issues, and published releases across shkao, ration, nami, and homebrew-tap.</desc>",
         "<style>",
-        ".background{fill:#ffffff;stroke:#d0d7de}.title{fill:#1f2328}.secondary{fill:#59636e}.grid{stroke:#d8dee4}.axis{fill:#59636e}",
-        "@media (prefers-color-scheme:dark){.background{fill:#0d1117;stroke:#30363d}.title{fill:#f0f6fc}.secondary,.axis{fill:#8b949e}.grid{stroke:#30363d}}",
+        ".background{fill:#ffffff;stroke:#d0d7de}.secondary{fill:#59636e}.grid{stroke:#d8dee4}.axis{fill:#59636e}",
+        "@media (prefers-color-scheme:dark){.background{fill:#0d1117;stroke:#30363d}.secondary,.axis{fill:#8b949e}.grid{stroke:#30363d}}",
         "text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}",
         "</style>",
         '<rect class="background" x="0.5" y="0.5" width="959" height="399" rx="10"/>',
-        '<text class="title" x="28" y="34" font-size="18" font-weight="600">Public project activity</text>',
-        f'<text class="secondary" x="28" y="57" font-size="12">Latest 12 calendar months · updated {html.escape(as_of.isoformat())} UTC</text>',
+        f'<text class="secondary" x="28" y="28" font-size="12">Latest 12 calendar months · updated {html.escape(as_of.isoformat())} UTC</text>',
     ]
 
     legend_x = 28
     for metric in METRICS:
         label = f"{LABELS[metric]} {totals[metric]}"
         lines.append(
-            f'<rect x="{legend_x}" y="78" width="10" height="10" rx="2" fill="{COLORS[metric]}"/>'
+            f'<rect x="{legend_x}" y="50" width="10" height="10" rx="2" fill="{COLORS[metric]}"/>'
         )
         lines.append(
-            f'<text class="secondary" x="{legend_x + 16}" y="87" font-size="12">{html.escape(label)}</text>'
+            f'<text class="secondary" x="{legend_x + 16}" y="59" font-size="12">{html.escape(label)}</text>'
         )
         legend_x += 108 + len(label) * 3
 

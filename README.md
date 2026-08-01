@@ -93,25 +93,18 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 
 ### Personal contributions
 
+<!-- personal-activity starts -->
 <a href="https://github.com/shkao">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;theme=github-compact&amp;hide_border=true&amp;area=true">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;bg_color=ffffff&amp;color=24292f&amp;line=2f81f7&amp;point=0969da&amp;area_color=2f81f7&amp;area=true&amp;hide_border=true" alt="Shu-Min Kao's public GitHub contribution activity">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;from=2026-07-03&amp;to=2026-08-02&amp;custom_title=Jul%203%20%E2%80%93%20Aug%202%2C%202026&amp;hide_border=true&amp;area=true&amp;theme=github-compact">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;from=2026-07-03&amp;to=2026-08-02&amp;custom_title=Jul%203%20%E2%80%93%20Aug%202%2C%202026&amp;hide_border=true&amp;area=true&amp;bg_color=ffffff&amp;color=24292f&amp;line=2f81f7&amp;point=0969da&amp;area_color=2f81f7" alt="Shu-Min Kao's public GitHub contribution activity">
   </picture>
 </a>
+<!-- personal-activity ends -->
 
 ### Public project activity
 
 <img src="assets/public-project-activity.svg" alt="Monthly commits, opened pull requests, opened issues, and published releases across Shu-Min Kao's public repositories">
-
-<details>
-<summary>Per-project Repobeats details</summary>
-<br>
-<h4><a href="https://github.com/shkao/ration">Ration</a></h4>
-<a href="https://github.com/shkao/ration"><img src="https://repobeats.axiom.co/api/embed/bbe57be7c418716b35ccc0c4512e0877a77f90c3.svg" alt="Repobeats activity for Ration"></a>
-<h4><a href="https://github.com/shkao/Nami">Nami</a></h4>
-<a href="https://github.com/shkao/Nami"><img src="https://repobeats.axiom.co/api/embed/585df8a47ed8d2c31bb09bce747a8f40a797aaeb.svg" alt="Repobeats activity for Nami"></a>
-</details>
 
 ## Now building
 

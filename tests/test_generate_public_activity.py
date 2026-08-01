@@ -36,6 +36,7 @@ class ActivityChartTests(unittest.TestCase):
         self.assertIn("Pull requests 1", svg)
         self.assertIn("Issues 1", svg)
         self.assertIn("Releases 0", svg)
+        self.assertNotIn('<text class="title"', svg)
 
 
 if __name__ == "__main__":
