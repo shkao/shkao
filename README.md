@@ -96,8 +96,8 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <!-- personal-activity starts -->
 <a href="https://github.com/shkao">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;from=2026-07-03&amp;to=2026-08-02&amp;custom_title=Jul%203%20%E2%80%93%20Aug%202%2C%202026&amp;hide_border=true&amp;area=true&amp;theme=github-compact">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;from=2026-07-03&amp;to=2026-08-02&amp;custom_title=Jul%203%20%E2%80%93%20Aug%202%2C%202026&amp;hide_border=true&amp;area=true&amp;bg_color=ffffff&amp;color=24292f&amp;line=2f81f7&amp;point=0969da&amp;area_color=2f81f7" alt="Shu-Min Kao's public GitHub contribution activity">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;from=2026-07-03&amp;to=2026-08-02&amp;custom_title=Jul%203%20%E2%80%93%20Aug%202%2C%202026&amp;hide_border=true&amp;area=true&amp;bg_color=0d1117&amp;color=c9d1d9&amp;line=ec4899&amp;point=ec4899&amp;area_color=ec4899">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;from=2026-07-03&amp;to=2026-08-02&amp;custom_title=Jul%203%20%E2%80%93%20Aug%202%2C%202026&amp;hide_border=true&amp;area=true&amp;bg_color=ffffff&amp;color=24292f&amp;line=ec4899&amp;point=ec4899&amp;area_color=ec4899" alt="Shu-Min Kao's public GitHub contribution activity">
   </picture>
 </a>
 <!-- personal-activity ends -->

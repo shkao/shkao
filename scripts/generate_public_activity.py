@@ -24,10 +24,10 @@ LABELS = {
     "releases": "Releases",
 }
 COLORS = {
-    "commits": "#2f81f7",
-    "pull_requests": "#a371f7",
-    "issues": "#3fb950",
-    "releases": "#d29922",
+    "commits": "#ff7a35",
+    "pull_requests": "#cf54fc",
+    "issues": "#61adf4",
+    "releases": "#ec4899",
 }
 API_ROOT = "https://api.github.com"
 OUTPUT = Path("assets/public-project-activity.svg")

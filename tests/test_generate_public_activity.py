@@ -11,6 +11,17 @@ SPEC.loader.exec_module(activity)
 
 
 class ActivityChartTests(unittest.TestCase):
+    def test_chart_uses_the_repobeats_palette(self):
+        self.assertEqual(
+            activity.COLORS,
+            {
+                "commits": "#ff7a35",
+                "pull_requests": "#cf54fc",
+                "issues": "#61adf4",
+                "releases": "#ec4899",
+            },
+        )
+
     def test_month_keys_cover_latest_twelve_calendar_months(self):
         keys = activity.month_keys(date(2026, 8, 2), 12)
 

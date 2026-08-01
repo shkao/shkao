@@ -20,6 +20,17 @@ class PersonalActivityTests(unittest.TestCase):
         self.assertIn(activity.START, block)
         self.assertIn(activity.END, block)
 
+    def test_graph_uses_repobeats_contribution_pink_in_both_themes(self):
+        light = activity.graph_url(date(2026, 8, 2), dark=False)
+        dark = activity.graph_url(date(2026, 8, 2), dark=True)
+
+        self.assertIn("line=ec4899", light)
+        self.assertIn("point=ec4899", light)
+        self.assertIn("area_color=ec4899", light)
+        self.assertIn("bg_color=0d1117", dark)
+        self.assertIn("line=ec4899", dark)
+        self.assertNotIn("theme=github-compact", dark)
+
 
 if __name__ == "__main__":
     unittest.main()

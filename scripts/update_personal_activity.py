@@ -37,15 +37,23 @@ def graph_url(as_of: date, dark: bool) -> str:
         "area": "true",
     }
     if dark:
-        params["theme"] = "github-compact"
+        params.update(
+            {
+                "bg_color": "0d1117",
+                "color": "c9d1d9",
+                "line": "ec4899",
+                "point": "ec4899",
+                "area_color": "ec4899",
+            }
+        )
     else:
         params.update(
             {
                 "bg_color": "ffffff",
                 "color": "24292f",
-                "line": "2f81f7",
-                "point": "0969da",
-                "area_color": "2f81f7",
+                "line": "ec4899",
+                "point": "ec4899",
+                "area_color": "ec4899",
             }
         )
     query = urllib.parse.urlencode(params, quote_via=urllib.parse.quote)
