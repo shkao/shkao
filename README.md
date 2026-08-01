@@ -59,12 +59,12 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
     <td valign="top">
       <h3><a href="https://github.com/shkao/ration">Ration</a></h3>
       <em>Make it last to reset day.</em>
-      <p>A macOS menu bar tracker for the AI quota your company rations you. One glance shows whether Copilot and Antigravity will last until they reset.</p>
+      <p>A macOS menu bar tracker for the AI quota your company rations you. One glance shows whether Copilot, Codex, and Antigravity will last until they reset.</p>
       <ul>
         <li>Live percent-used in the menu bar, busiest quota first</li>
         <li>A pace tick on every bar: ahead of the clock, or behind</li>
         <li>Warns in orange, then red, before you run out</li>
-        <li>Auto-detects Copilot and Antigravity; reads from cache when offline</li>
+        <li>Auto-detects Copilot, Codex, and Antigravity; keeps Copilot visible offline</li>
       </ul>
       <p>SwiftBar · Bash · gh · jq</p>
       <p><a href="https://github.com/shkao/ration"><b>View on GitHub →</b></a></p>
