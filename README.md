@@ -96,8 +96,8 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <!-- personal-activity starts -->
 <a href="https://github.com/shkao">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;from=2026-07-11&amp;to=2026-08-10&amp;custom_title=Jul%2011%20%E2%80%93%20Aug%2010%2C%202026&amp;hide_border=true&amp;area=true&amp;bg_color=0d1117&amp;color=c9d1d9&amp;line=599981&amp;point=599981&amp;area_color=599981">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;from=2026-07-11&amp;to=2026-08-10&amp;custom_title=Jul%2011%20%E2%80%93%20Aug%2010%2C%202026&amp;hide_border=true&amp;area=true&amp;bg_color=ffffff&amp;color=24292f&amp;line=599981&amp;point=599981&amp;area_color=599981" alt="Shu-Min Kao's public GitHub contribution activity">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;from=2026-07-18&amp;to=2026-08-17&amp;custom_title=Jul%2018%20%E2%80%93%20Aug%2017%2C%202026&amp;hide_border=true&amp;area=true&amp;bg_color=0d1117&amp;color=c9d1d9&amp;line=599981&amp;point=599981&amp;area_color=599981">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=shkao&amp;from=2026-07-18&amp;to=2026-08-17&amp;custom_title=Jul%2018%20%E2%80%93%20Aug%2017%2C%202026&amp;hide_border=true&amp;area=true&amp;bg_color=ffffff&amp;color=24292f&amp;line=599981&amp;point=599981&amp;area_color=599981" alt="Shu-Min Kao's public GitHub contribution activity">
   </picture>
 </a>
 <!-- personal-activity ends -->
