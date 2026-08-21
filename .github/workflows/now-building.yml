@@ -16,11 +16,12 @@ jobs:
       - name: Test activity generator
         run: python3 -m unittest discover -s tests -v
       - run: python3 scripts/update_now_building.py
-      - run: python3 scripts/update_personal_activity.py
       - name: Generate public project activity
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/generate_public_activity.py
+      - name: Refresh open-source contributions
+        run: python3 scripts/update_open_source.py
       - name: Commit if changed
         run: |
           if ! git diff --quiet README.md assets/public-project-activity.svg; then
