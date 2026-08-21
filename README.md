@@ -46,7 +46,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <li>Live Japanese community FM from the menu bar</li>
 <li>Auto-reconnects when the stream drops</li>
 <li>Zero dependencies, CI on every commit</li>
-<li>Ships at ~30 MB</li>
+<li>A 300 KB download that idles around 30 MB of memory</li>
 </ul>
 <p>SwiftUI · AVFoundation</p>
 <p><a href="https://github.com/shkao/Nami"><b>View on GitHub →</b></a></p>
