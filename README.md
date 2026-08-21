@@ -55,8 +55,8 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <tr>
 <td width="360" align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/ration-dark.png">
-<img src="assets/ration-light.png" width="300" alt="Ration in the macOS menu bar showing AI quota percent used with pace ticks">
+<source media="(prefers-color-scheme: dark)" srcset="assets/ration-dark.webp">
+<img src="assets/ration-light.webp" width="300" alt="Ration in the macOS menu bar showing AI quota percent used with pace ticks">
 </picture>
 </td>
 <td valign="top">
