@@ -18,17 +18,18 @@ class OpenSourceSectionTests(unittest.TestCase):
         self.assertEqual(open_source.format_stars(12000), "12k")
 
     def test_rendered_block_round_trips_through_previous_badges(self):
-        block = open_source.render_block(
-            open_source.CONTRIBUTIONS,
-            {"feynman": "8.5k", "awesome-claude-skills": "15k"},
-        )
+        badges = {item["name"]: "8.5k" for item in open_source.CONTRIBUTIONS}
+        block = open_source.render_block(open_source.CONTRIBUTIONS, badges)
 
         self.assertTrue(block.startswith(open_source.START))
         self.assertTrue(block.endswith(open_source.END))
-        self.assertEqual(
-            open_source.previous_badges(block),
-            {"feynman": "8.5k", "awesome-claude-skills": "15k"},
-        )
+        self.assertEqual(open_source.previous_badges(block), badges)
+
+    def test_a_repo_with_no_known_badge_still_renders(self):
+        block = open_source.render_block(open_source.CONTRIBUTIONS, {})
+
+        for item in open_source.CONTRIBUTIONS:
+            self.assertIn(item["name"], block)
 
     def test_offline_run_keeps_the_badges_already_in_the_readme(self):
         readme = Path(__file__).parents[1] / "README.md"

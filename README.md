@@ -103,10 +103,6 @@ Fixes I've shipped upstream, in other people's repositories.
 <td valign="top" width="230"><b><a href="https://github.com/companion-inc/feynman">feynman</a></b> · ★ 8.5k<br><sub>AI research agent for scientists</sub></td>
 <td valign="top">Concurrent PubMed lookups were tripping NCBI's E-utilities rate limit mid-search. Diagnosed it, then routed every caller through a shared pacing queue with a regression test and a burst-check script.<br><sub><a href="https://github.com/companion-inc/feynman/issues/237">issue #237</a> · <a href="https://github.com/companion-inc/feynman/commits?author=shkao">3 commits</a> · <a href="https://github.com/companion-inc/feynman/pull/239">merged in #239</a></sub></td>
 </tr>
-<tr>
-<td valign="top" width="230"><b><a href="https://github.com/travisvn/awesome-claude-skills">awesome-claude-skills</a></b> · ★ 14.8k<br><sub>Curated Claude Skills list</sub></td>
-<td valign="top">Every link to the official skills repository 404'd after an upstream move. Tracked down the new locations and fixed the set.<br><sub><a href="https://github.com/travisvn/awesome-claude-skills/pull/16">PR #16</a></sub></td>
-</tr>
 </table>
 <!-- open-source ends -->
 

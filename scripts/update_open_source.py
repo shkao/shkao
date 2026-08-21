@@ -36,18 +36,6 @@ CONTRIBUTIONS = [
             ("merged in #239", "https://github.com/companion-inc/feynman/pull/239"),
         ],
     },
-    {
-        "repo": "travisvn/awesome-claude-skills",
-        "name": "awesome-claude-skills",
-        "what": "Curated Claude Skills list",
-        "summary": (
-            "Every link to the official skills repository 404'd after an upstream "
-            "move. Tracked down the new locations and fixed the set."
-        ),
-        "links": [
-            ("PR #16", "https://github.com/travisvn/awesome-claude-skills/pull/16"),
-        ],
-    },
 ]
 
 
