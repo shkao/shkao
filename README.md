@@ -100,7 +100,7 @@ Fixes I've shipped upstream, in other people's repositories.
 <!-- open-source starts -->
 <table>
 <tr>
-<td valign="top" width="230"><b><a href="https://github.com/companion-inc/feynman">feynman</a></b> · ★ 8.5k<br><sub>AI research agent for scientists</sub></td>
+<td valign="top" width="230"><b><a href="https://github.com/companion-inc/feynman">feynman</a></b> · ★ 8.6k<br><sub>AI research agent for scientists</sub></td>
 <td valign="top">Concurrent PubMed lookups were tripping NCBI's E-utilities rate limit mid-search. Diagnosed it, then routed every caller through a shared pacing queue with a regression test and a burst-check script.<br><sub><a href="https://github.com/companion-inc/feynman/issues/237">issue #237</a> · <a href="https://github.com/companion-inc/feynman/commits?author=shkao">3 commits</a> · <a href="https://github.com/companion-inc/feynman/pull/239">merged in #239</a></sub></td>
 </tr>
 </table>
