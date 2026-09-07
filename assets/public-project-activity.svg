@@ -7,9 +7,9 @@
 text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
 </style>
 <rect class="background" x="0.5" y="0.5" width="959" height="399" rx="10"/>
-<text class="secondary" x="28" y="28" font-size="12">Latest 12 calendar months · updated 2026-08-31 UTC</text>
+<text class="secondary" x="28" y="28" font-size="12">Latest 12 calendar months · updated 2026-09-07 UTC</text>
 <rect x="28" y="50" width="10" height="10" rx="2" fill="#599981"/>
-<text class="secondary" x="44" y="59" font-size="12">Commits 120</text>
+<text class="secondary" x="44" y="59" font-size="12">Commits 122</text>
 <rect x="169" y="50" width="10" height="10" rx="2" fill="#9981E1"/>
 <text class="secondary" x="185" y="59" font-size="12">Pull requests 1</text>
 <rect x="322" y="50" width="10" height="10" rx="2" fill="#4A70C7"/>
@@ -26,26 +26,27 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
 <text class="axis" x="48" y="151.0" text-anchor="end" font-size="10">45</text>
 <line class="grid" x1="58" y1="86.0" x2="912" y2="86.0"/>
 <text class="axis" x="48" y="90.0" text-anchor="end" font-size="10">60</text>
-<text class="axis" x="93.6" y="351" text-anchor="middle" font-size="10">Sep &#x27;25</text>
-<text class="axis" x="164.8" y="351" text-anchor="middle" font-size="10">Oct</text>
-<text class="axis" x="235.9" y="351" text-anchor="middle" font-size="10">Nov</text>
-<text class="axis" x="307.1" y="351" text-anchor="middle" font-size="10">Dec</text>
-<rect x="358.2" y="260.9" width="40.0" height="69.1" fill="#599981"><title>2026-01 · Commits: 17</title></rect>
-<text class="axis" x="378.2" y="351" text-anchor="middle" font-size="10">Jan &#x27;26</text>
-<rect x="429.4" y="273.1" width="40.0" height="56.9" fill="#599981"><title>2026-02 · Commits: 14</title></rect>
-<rect x="429.4" y="269.0" width="40.0" height="4.1" fill="#B78199"><title>2026-02 · Releases: 1</title></rect>
-<text class="axis" x="449.4" y="351" text-anchor="middle" font-size="10">Feb</text>
-<rect x="500.6" y="317.8" width="40.0" height="12.2" fill="#599981"><title>2026-03 · Commits: 3</title></rect>
-<text class="axis" x="520.6" y="351" text-anchor="middle" font-size="10">Mar</text>
-<rect x="571.8" y="301.5" width="40.0" height="28.5" fill="#599981"><title>2026-04 · Commits: 7</title></rect>
-<text class="axis" x="591.8" y="351" text-anchor="middle" font-size="10">Apr</text>
-<text class="axis" x="662.9" y="351" text-anchor="middle" font-size="10">May</text>
-<text class="axis" x="734.1" y="351" text-anchor="middle" font-size="10">Jun</text>
-<rect x="785.3" y="106.3" width="40.0" height="223.7" fill="#599981"><title>2026-07 · Commits: 55</title></rect>
-<rect x="785.3" y="98.2" width="40.0" height="8.1" fill="#B78199"><title>2026-07 · Releases: 2</title></rect>
-<text class="axis" x="805.3" y="351" text-anchor="middle" font-size="10">Jul</text>
-<rect x="856.4" y="232.4" width="40.0" height="97.6" fill="#599981"><title>2026-08 · Commits: 24</title></rect>
-<rect x="856.4" y="228.3" width="40.0" height="4.1" fill="#9981E1"><title>2026-08 · Pull requests: 1</title></rect>
-<text class="axis" x="876.4" y="351" text-anchor="middle" font-size="10">Aug</text>
+<text class="axis" x="93.6" y="351" text-anchor="middle" font-size="10">Oct &#x27;25</text>
+<text class="axis" x="164.8" y="351" text-anchor="middle" font-size="10">Nov</text>
+<text class="axis" x="235.9" y="351" text-anchor="middle" font-size="10">Dec</text>
+<rect x="287.1" y="260.9" width="40.0" height="69.1" fill="#599981"><title>2026-01 · Commits: 17</title></rect>
+<text class="axis" x="307.1" y="351" text-anchor="middle" font-size="10">Jan &#x27;26</text>
+<rect x="358.2" y="273.1" width="40.0" height="56.9" fill="#599981"><title>2026-02 · Commits: 14</title></rect>
+<rect x="358.2" y="269.0" width="40.0" height="4.1" fill="#B78199"><title>2026-02 · Releases: 1</title></rect>
+<text class="axis" x="378.2" y="351" text-anchor="middle" font-size="10">Feb</text>
+<rect x="429.4" y="317.8" width="40.0" height="12.2" fill="#599981"><title>2026-03 · Commits: 3</title></rect>
+<text class="axis" x="449.4" y="351" text-anchor="middle" font-size="10">Mar</text>
+<rect x="500.6" y="301.5" width="40.0" height="28.5" fill="#599981"><title>2026-04 · Commits: 7</title></rect>
+<text class="axis" x="520.6" y="351" text-anchor="middle" font-size="10">Apr</text>
+<text class="axis" x="591.8" y="351" text-anchor="middle" font-size="10">May</text>
+<text class="axis" x="662.9" y="351" text-anchor="middle" font-size="10">Jun</text>
+<rect x="714.1" y="106.3" width="40.0" height="223.7" fill="#599981"><title>2026-07 · Commits: 55</title></rect>
+<rect x="714.1" y="98.2" width="40.0" height="8.1" fill="#B78199"><title>2026-07 · Releases: 2</title></rect>
+<text class="axis" x="734.1" y="351" text-anchor="middle" font-size="10">Jul</text>
+<rect x="785.3" y="228.3" width="40.0" height="101.7" fill="#599981"><title>2026-08 · Commits: 25</title></rect>
+<rect x="785.3" y="224.3" width="40.0" height="4.1" fill="#9981E1"><title>2026-08 · Pull requests: 1</title></rect>
+<text class="axis" x="805.3" y="351" text-anchor="middle" font-size="10">Aug</text>
+<rect x="856.4" y="325.9" width="40.0" height="4.1" fill="#599981"><title>2026-09 · Commits: 1</title></rect>
+<text class="axis" x="876.4" y="351" text-anchor="middle" font-size="10">Sep</text>
 <text class="secondary" x="480" y="380" text-anchor="middle" font-size="11">shkao · ration · nami · homebrew-tap</text>
 </svg>
