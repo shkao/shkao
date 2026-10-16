@@ -8,6 +8,8 @@ I build data platforms for biomedical research by day, and ship small, fast apps
 
 Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 
+<sub><a href="#projects">Projects</a> · <a href="#open-source">Open source</a> · <a href="#activity">Activity</a></sub>
+
 </div>
 
 ## Projects
@@ -30,7 +32,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <li>Explore the city map for venues, toilets, water, and bike parking</li>
 <li>Shared plans so friends can vote on where to go next</li>
 </ul>
-<p>Next.js · Supabase · MapLibre · six languages</p>
+<p><code>Next.js</code> <code>Supabase</code> <code>MapLibre</code> <code>6 languages</code></p>
 <p><a href="https://gentropy.vercel.app"><b>Open live app →</b></a></p>
 </td>
 </tr>
@@ -48,7 +50,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <li>Zero dependencies, CI on every commit</li>
 <li>A 300 KB download that idles around 30 MB of memory</li>
 </ul>
-<p>SwiftUI · AVFoundation</p>
+<p><code>SwiftUI</code> <code>AVFoundation</code></p>
 <p><a href="https://github.com/shkao/Nami"><b>View on GitHub →</b></a></p>
 </td>
 </tr>
@@ -69,7 +71,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <li>Warns in orange, then red, before you run out</li>
 <li>Auto-detects Copilot, Codex, and Antigravity; keeps Copilot visible offline</li>
 </ul>
-<p>SwiftBar · Bash · gh · jq</p>
+<p><code>SwiftBar</code> <code>Bash</code> <code>gh</code> <code>jq</code></p>
 <p><a href="https://github.com/shkao/ration"><b>View on GitHub →</b></a></p>
 </td>
 </tr>
