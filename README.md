@@ -48,7 +48,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <li>Live Japanese community FM from the menu bar</li>
 <li>Auto-reconnects when the stream drops</li>
 <li>Zero dependencies, CI on every commit</li>
-<li>A 300 KB download that idles around 30 MB of memory</li>
+<li>A download of about 330 KB that idles around 30 MB of memory</li>
 </ul>
 <p><code>SwiftUI</code> <code>AVFoundation</code></p>
 <p><a href="https://github.com/shkao/Nami"><b>View on GitHub →</b></a></p>
@@ -110,7 +110,7 @@ Fixes I've shipped upstream, in other people's repositories.
 
 ## Activity
 
-<img src="assets/public-project-activity.svg" alt="Monthly commits, pull requests, issues, and releases across my public repositories over the last 12 months">
+<img src="assets/public-project-activity.svg" alt="Monthly commits, pull requests, issues, and releases across shkao, ration, nami, and homebrew-tap over the last 12 months">
 
 ## Now building
 
@@ -118,4 +118,4 @@ Fixes I've shipped upstream, in other people's repositories.
 - Heads-down in private repos right now.
 <!-- now-building ends -->
 
-<sub>The activity chart, the open-source table, and this section refresh weekly via a [GitHub Action](.github/workflows/now-building.yml). Public repositories only.</sub>
+<sub>The activity chart, the open-source star counts, and this section refresh weekly via a [GitHub Action](.github/workflows/now-building.yml). Public repositories only.</sub>
