@@ -1,4 +1,4 @@
-"""Record a phone-sized walkthrough for a profile demo GIF.
+"""Record a phone-sized walkthrough for a profile demo WebP.
 
 Copy this file per project: change the URL and the tap/scroll choreography.
 Keep VIEWPORT at the same aspect ratio as the frame's video pane (VW:VH in
