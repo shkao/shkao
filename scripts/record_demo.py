@@ -2,7 +2,7 @@
 
 Copy this file per project: change the URL and the tap/scroll choreography.
 Keep VIEWPORT at the same aspect ratio as the frame's video pane (VW:VH in
-frame.env) or compose_gif.sh will stretch the recording.
+frame.env) or compose_demo.sh will stretch the recording.
 """
 from playwright.sync_api import sync_playwright
 

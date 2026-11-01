@@ -83,7 +83,7 @@ d.rounded_rectangle(((SX + (SCREEN_W - hw) // 2) * SS, (SY + SCREEN_H - 10) * SS
 img = img.resize((W, H), Image.LANCZOS)
 img.save("frame.png")
 
-# geometry consumed by compose_gif.sh; keeps the ffmpeg filter in sync with this file
+# geometry consumed by compose_demo.sh; keeps the ffmpeg filter in sync with this file
 with open("frame.env", "w") as f:
     f.write(f"W={W}\nH={H}\nVX={SX}\nVY={SY + STATUS}\nVW={SCREEN_W}\nVH={SCREEN_H - STATUS - BOTTOM}\n")
 print("ok")
