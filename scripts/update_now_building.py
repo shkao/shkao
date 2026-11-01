@@ -55,7 +55,7 @@ if not lines:
     lines = ["- Heads-down in private repos right now."]
 
 block = "\n".join([START, *lines, END])
-updated = re.sub(re.escape(START) + r".*?" + re.escape(END), block, readme, flags=re.S)
+updated = re.sub(re.escape(START) + r".*?" + re.escape(END), lambda _: block, readme, flags=re.S)
 if updated != readme:
     open("README.md", "w").write(updated)
     print("updated")

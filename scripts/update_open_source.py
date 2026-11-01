@@ -88,7 +88,7 @@ def main() -> None:
 
     block = render_block(CONTRIBUTIONS, badges)
     updated = re.sub(
-        re.escape(START) + r".*?" + re.escape(END), block, readme, flags=re.S
+        re.escape(START) + r".*?" + re.escape(END), lambda _: block, readme, flags=re.S
     )
     if updated != readme:
         README.write_text(updated)

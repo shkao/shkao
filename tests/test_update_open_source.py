@@ -1,6 +1,9 @@
 import importlib.util
+import io
+import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 
 SCRIPT = Path(__file__).parents[1] / "scripts" / "update_open_source.py"
@@ -44,6 +47,21 @@ class OpenSourceSectionTests(unittest.TestCase):
             for text, url in item["links"]:
                 self.assertTrue(text)
                 self.assertTrue(url.startswith("https://github.com/"), url)
+
+    def test_backslashes_in_a_summary_are_written_literally(self):
+        item = dict(open_source.CONTRIBUTIONS[0], summary=r"C:\data \d+")
+        with tempfile.TemporaryDirectory() as directory:
+            readme = Path(directory) / "README.md"
+            readme.write_text(f"intro\n{open_source.START}\nold\n{open_source.END}\n")
+            with mock.patch.multiple(
+                open_source,
+                README=readme,
+                CONTRIBUTIONS=[item],
+                fetch_stars=lambda repo: None,
+            ), mock.patch("sys.stdout", io.StringIO()):
+                open_source.main()
+
+            self.assertIn(r"C:\data \d+<br>", readme.read_text())
 
 
 if __name__ == "__main__":
