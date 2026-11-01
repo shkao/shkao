@@ -5,7 +5,6 @@ import html
 import json
 import math
 import os
-import tempfile
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -205,13 +204,7 @@ def render_svg(counts: dict[str, dict[str, int]], as_of: date) -> str:
 
 def write_output(svg: str) -> None:
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.NamedTemporaryFile(
-        mode="w", dir=OUTPUT.parent, delete=False, encoding="utf-8"
-    ) as temporary:
-        temporary.write(svg)
-        temporary_path = Path(temporary.name)
-    temporary_path.chmod(0o644)
-    temporary_path.replace(OUTPUT)
+    OUTPUT.write_text(svg, encoding="utf-8")
 
 
 def main() -> None:
