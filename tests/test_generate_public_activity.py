@@ -1,4 +1,5 @@
 import importlib.util
+import re
 import unittest
 from datetime import date
 from pathlib import Path
@@ -48,6 +49,22 @@ class ActivityChartTests(unittest.TestCase):
         self.assertIn("Issues 1", svg)
         self.assertIn("Releases 0", svg)
         self.assertNotIn('<text class="title"', svg)
+
+    def test_tick_labels_are_exact_and_cover_the_maximum(self):
+        for maximum in range(0, 31):
+            counts = activity.empty_counts(activity.month_keys(date(2026, 8, 2), 12))
+            counts["2026-08"]["commits"] = maximum
+
+            svg = activity.render_svg(counts, date(2026, 8, 2))
+            labels = [
+                int(label)
+                for label in re.findall(r'text-anchor="end" font-size="10">(\d+)<', svg)
+            ]
+
+            self.assertEqual(len(labels), 5, maximum)
+            step = labels[-1] / 4
+            self.assertEqual(labels, [step * tick for tick in range(5)], maximum)
+            self.assertGreaterEqual(labels[-1], maximum)
 
 
 if __name__ == "__main__":

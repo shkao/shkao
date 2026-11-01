@@ -137,7 +137,7 @@ def render_svg(counts: dict[str, dict[str, int]], as_of: date) -> str:
     }
     monthly_totals = [sum(counts[key].values()) for key in months]
     maximum = max(monthly_totals, default=0)
-    axis_max = max(4, int(math.ceil(maximum / 5.0) * 5))
+    axis_max = max(4, math.ceil(maximum / 4) * 4)
 
     lines = [
         '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img">',
