@@ -23,41 +23,39 @@ with sync_playwright() as p:
             page.mouse.wheel(0, dy)
             page.wait_for_timeout(pause)
 
-    # Now
+    # Events
     page.goto("https://gentropy.vercel.app/en", wait_until="networkidle")
-    page.wait_for_timeout(5000)   # linger on the Your Thing card
-    try:  # the taste card only shows on a first visit; continue without it
-        page.get_by_text("Live music").first.click(timeout=5000)
-    except Exception:
-        pass
-    page.wait_for_timeout(3000)   # card collapses, feed re-ranks
-    scroll(3, 420, 1400)
-    page.wait_for_timeout(1500)
-
-    # Explore
-    page.get_by_text("Explore", exact=True).last.click()
-    page.wait_for_timeout(3500)
-    scroll(2, 450, 1100)
-    page.wait_for_timeout(800)
+    page.wait_for_timeout(4000)   # linger on the countdown and the list
+    page.locator('[aria-label^="Save: "]').first.click()
+    page.wait_for_timeout(1800)   # bookmark fills in
+    page.get_by_role("button", name="Live jazz").click()
+    page.wait_for_timeout(2500)   # the jazz gig guide, night by night
+    scroll(2, 380, 1300)
+    page.get_by_role("button", name="Gallery", exact=True).click()
+    page.wait_for_timeout(3000)
 
     # Map
     page.get_by_text("Map", exact=True).last.click()
     page.wait_for_timeout(9000)
-    page.mouse.move(195, 480)
+    page.mouse.move(195, 420)
     page.mouse.down()
-    page.mouse.move(150, 380, steps=20)
+    page.mouse.move(150, 330, steps=20)
     page.mouse.up()
     page.wait_for_timeout(1500)
-
-    # amenity layers: toilets, then water points
-    page.locator('[aria-label="Toilets"]').click()
+    page.get_by_role("button", name="Toilets").click()
     page.wait_for_timeout(2200)
-    page.locator('[aria-label="Water points"]').click()
+    page.get_by_role("button", name="Water points").click()
     page.wait_for_timeout(2800)
 
-    # Plans
+    # Plans: the event saved above shows up under My events
     page.get_by_text("Plans", exact=True).last.click()
     page.wait_for_timeout(4000)
+
+    # News
+    page.get_by_text("News", exact=True).last.click()
+    page.wait_for_timeout(3500)
+    scroll(2, 420, 1300)
+    page.wait_for_timeout(1500)
 
     ctx.close()
     browser.close()
