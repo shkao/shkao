@@ -19,7 +19,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <td width="360" align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="assets/gentropy-demo-dark.webp">
-<img src="assets/gentropy-demo-light.webp" width="320" alt="Gentropy walkthrough: live feed, explore, map">
+<img src="assets/gentropy-demo-light.webp" width="320" alt="Gentropy walkthrough: events, live jazz guide, map, saved events, local news">
 </picture>
 </td>
 <td valign="top">
@@ -30,7 +30,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <li>See what's happening now, what's coming up, and the latest local headlines</li>
 <li>Browse the city agenda and the Gentse Feesten programme by date, theme, and time</li>
 <li>Explore the city map for venues, toilets, water, and bike parking</li>
-<li>Shared plans so friends can vote on where to go next</li>
+<li>Save events to a dated agenda, and share plans so friends can vote on where to go next</li>
 </ul>
 <p><code>Next.js</code> <code>Supabase</code> <code>MapLibre</code> <code>6 languages</code></p>
 <p><a href="https://gentropy.vercel.app"><b>Open live app →</b></a></p>
@@ -58,18 +58,18 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <td width="360" align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="assets/ration-dark.webp">
-<img src="assets/ration-light.webp" width="300" alt="Ration in the macOS menu bar showing AI quota percent used with pace ticks">
+<img src="assets/ration-light.webp" width="300" alt="Ration's menu bar dropdown with Copilot, Codex, Claude, and Antigravity quota bars, reset times, and pace ticks">
 </picture>
 </td>
 <td valign="top">
 <h3><a href="https://github.com/shkao/ration">Ration</a></h3>
 <em>Make it last to reset day.</em>
-<p>A macOS menu bar tracker for the AI quota your company rations you. One glance shows whether Copilot, Codex, and Antigravity will last until reset.</p>
+<p>A macOS menu bar tracker for the AI quota your company rations you. One glance shows whether Copilot, Codex, Claude, and Antigravity will last until reset.</p>
 <ul>
-<li>Live percent-used in the menu bar, busiest quota first</li>
+<li>Live percent-used in the menu bar: busiest quota first, or pin one tool or account</li>
 <li>A pace tick on every bar: ahead of the clock, or behind</li>
 <li>Warns in orange, then red, before you run out</li>
-<li>Auto-detects Copilot, Codex, and Antigravity; keeps Copilot visible offline</li>
+<li>Auto-detects Copilot, Codex, Claude, and Antigravity; keeps Copilot visible offline</li>
 </ul>
 <p><code>SwiftBar</code> <code>Bash</code> <code>gh</code> <code>jq</code></p>
 <p><a href="https://github.com/shkao/ration"><b>View on GitHub →</b></a></p>
