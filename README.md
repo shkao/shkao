@@ -70,6 +70,7 @@ Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 <li>A pace tick on every bar: ahead of the clock, or behind</li>
 <li>Warns in orange, then red, before you run out</li>
 <li>Auto-detects Copilot, Codex, Claude, and Antigravity; keeps Copilot visible offline</li>
+<li>Every Claude account side by side, synced across Macs through iCloud Drive</li>
 </ul>
 <p><code>SwiftBar</code> <code>Bash</code> <code>gh</code> <code>jq</code></p>
 <p><a href="https://github.com/shkao/ration"><b>View on GitHub →</b></a></p>
