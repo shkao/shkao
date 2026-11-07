@@ -42,6 +42,22 @@ class NowBuildingSectionTests(unittest.TestCase):
 
             self.assertIn(f" · {description}\n{END}", readme.read_text())
 
+    def test_no_recent_public_repo_leaves_the_section_out(self):
+        response = io.BytesIO(b"[]")
+        with tempfile.TemporaryDirectory() as directory:
+            readme = Path(directory) / "README.md"
+            readme.write_text(f"intro\n{START}\n## Now building\n\n- old\n{END}\n")
+            cwd = os.getcwd()
+            os.chdir(directory)
+            try:
+                with mock.patch("urllib.request.urlopen", return_value=response):
+                    with mock.patch("sys.stdout", io.StringIO()):
+                        runpy.run_path(str(SCRIPT))
+            finally:
+                os.chdir(cwd)
+
+            self.assertEqual(f"intro\n{START}\n{END}\n", readme.read_text())
+
 
 if __name__ == "__main__":
     unittest.main()

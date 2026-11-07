@@ -2,7 +2,7 @@
 """Rewrite the now-building section of README.md from recent public repo activity.
 
 Runs unauthenticated, so only public repos appear. Repos with no push in the
-last 60 days are skipped; if nothing qualifies, a fallback line is written.
+last 60 days are skipped; if nothing qualifies, the section is left out.
 """
 
 import json
@@ -51,8 +51,8 @@ for r in repos:
     if len(lines) == MAX_ITEMS:
         break
 
-if not lines:
-    lines = ["- Heads-down in private repos right now."]
+if lines:
+    lines = ["## Now building", "", *lines]
 
 block = "\n".join([START, *lines, END])
 updated = re.sub(re.escape(START) + r".*?" + re.escape(END), lambda _: block, readme, flags=re.S)

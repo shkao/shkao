@@ -4,7 +4,7 @@
 
 **Bioinformatics scientist and software engineer.**
 
-I build data platforms for biomedical research by day, and ship small, fast apps by night.
+Biomedical data platforms by day. Indie apps by night.
 
 Ghent, Belgium · [LinkedIn](https://www.linkedin.com/in/allenkao/)
 
@@ -113,10 +113,7 @@ Fixes I've shipped upstream, in other people's repositories.
 
 <img src="assets/public-project-activity.svg" alt="Monthly commits, pull requests, issues, and releases across shkao, ration, nami, and homebrew-tap over the last 12 months">
 
-## Now building
-
 <!-- now-building starts -->
-- Heads-down in private repos right now.
 <!-- now-building ends -->
 
-<sub>The activity chart, the open-source star counts, and this section refresh weekly via a [GitHub Action](.github/workflows/now-building.yml). Public repositories only.</sub>
+<sub>Activity, star counts, and any public work in progress refresh weekly via a [GitHub Action](.github/workflows/now-building.yml).</sub>
